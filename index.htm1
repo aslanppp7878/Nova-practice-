@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                AI
+            </div>
+
+            <div class="logo-text">
+                AI Chat
+            </div>
+
+        </div>
+
+        <button class="new-chat">
+
+            <span>＋</span>
+
+            Новый чат
+
+        </button>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                placeholder="Поиск">
+
+        </div>
+
+        <div class="chat-list">
+
+            <div class="chat-item active">
+
+                Первый чат
+
+            </div>
+
+            <div class="chat-item">
+
+                Новый проект
+
+            </div>
+
+            <div class="chat-item">
+
+                HTML обучение
+
+            </div>
+
+        </div>
+
+        <div class="sidebar-bottom">
+
+            <button class="settings">
+
+                ⚙ Настройки
+
+            </button>
+
+        </div>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <h1>
+
+                AI Chat
+
+            </h1>
+
+        </header>
+
+        <section class="messages" id="messages">
+        <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- Левая панель -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                AI
+            </div>
+
+            <div class="logo-text">
+                AI Chat
+            </div>
+
+        </div>
+
+        <button class="new-chat">
+
+            <span>＋</span>
+
+            Новый чат
+
+        </button>
+
+        <div class="search">
+
+            <input
+                type="text"
+                placeholder="Поиск по чатам">
+
+        </div>
+
+        <div class="chat-list">
+
+            <div class="chat-item active">
+                Новый чат
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- Правая часть -->
+
+    <main class="main">
+
+        <header class="topbar">
+
+            <h1>AI Chat</h1>
+
+        </header>
+
+        <section id="messages" class="messages">
+                    <div class="message ai">
+
+                <div class="avatar ai-avatar">
+                    AI
+                </div>
+
+                <div class="message-content">
+
+                    <h3>Добро пожаловать!</h3>
+
+                    <p>
+                        Это твой собственный аналог ChatGPT.
+                    </p>
+
+                    <p>
+                        В следующих частях мы сделаем:
+                    </p>
+
+                    <ul>
+
+                        <li>✔ Красивый интерфейс</li>
+
+                        <li>✔ Историю чатов</li>
+
+                        <li>✔ Темную тему</li>
+
+                        <li>✔ Потоковую печать ответа</li>
+
+                        <li>✔ Работу через OpenAI API</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="chat-input">
+
+            <textarea
+                id="prompt"
+                placeholder="Напишите сообщение..."
+                rows="1"></textarea>
+
+            <button id="sendButton">
+
+                ➜
+
+            </button>
+
+        </div>
+
+    </main>
